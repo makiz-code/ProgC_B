@@ -37,5 +37,10 @@ Ces fichiers sont lus au démarrage et sauvegardés à chaque modification.
 
 ## Compilation & exécution
 Assure-toi d'avoir un compilateur C (gcc).
+make all
+./bibliotheque
 
+## Nettoyage (optionnel)
+Pour supprimer l'exécutable et les fichiers objets compilés, utilise :
+make clean
 
